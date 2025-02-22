@@ -48,6 +48,7 @@ class SettingsConstants:
 
     LOCALE__ARABIC = "ar"
     LOCALE__CZECH = "cs"
+    LOCALE__DUTCH = "nl"
     LOCALE__ENGLISH = "en"
     LOCALE__FRENCH = "fr"
     LOCALE__GERMAN = "de"
@@ -61,6 +62,7 @@ class SettingsConstants:
     ALL_LOCALES = [
         # (LOCALE__ARABIC, "Arabic"),
         # (LOCALE__CZECH, "čeština"),
+        (LOCALE__DUTCH, "Nederlands"),
         (LOCALE__ENGLISH, "English"),
         # (LOCALE__FRENCH, "Français"),
         # (LOCALE__GERMAN, "Deutsch"),
